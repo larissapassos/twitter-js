@@ -16,7 +16,7 @@ var find = function (properties) {
 };
 
 module.exports = { add: add, list: list, find: find };
-/*
+
 // Generating fake tweets
 var randArrayEl = function(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -37,6 +37,6 @@ for(var i=0; i<10; i++) {
   module.exports.add( getFakeName(), getFakeTweet() );
 }
 
-console.log(data);
-*/
+//console.log(data);
+
 
