@@ -14,5 +14,5 @@ app.get('/', function (req, res) {
 });
 
 app.get('/news', function (req, res) {
-    res.send('olar.mundo');
+    res.send('olar.larigirl');
 });
