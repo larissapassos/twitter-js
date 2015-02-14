@@ -1,10 +1,12 @@
 var _ = require('underscore');
+var id = 0;
 
 // Store tweets
 var data = [];
 
 var add = function (name, text) {
-  data.push({ name: name, text: text });
+  data.push({ id: id, name: name, text: text });
+  id++;
 };
 
 var list = function () {

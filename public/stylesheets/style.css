@@ -57,3 +57,24 @@ code {
 .content .by {
   font-weight: bold;
 }
+
+.col-md-3 {
+  float: left;
+}
+
+.col-md-9 {
+  float: right;
+  height: 50px;
+  width: 550px;
+}
+
+.col-md-9 > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.col-md-9 > ul > .name {
+  font-weight: bold;
+  font-size: 14px;
+}
