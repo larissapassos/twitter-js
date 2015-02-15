@@ -64,8 +64,18 @@ code {
 
 .col-md-9 {
   float: right;
-  height: 50px;
   width: 550px;
+}
+
+.col-md-9 > form {
+  border: dotted;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.col-md-9 > form > #name_field {
+  width: 350px;
+  margin-right: 70px;
 }
 
 .col-md-9 > ul {
